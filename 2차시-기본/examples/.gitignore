@@ -1,0 +1,12 @@
+# API 키가 든 파일은 깃에 올리지 않습니다
+.env
+.env.local
+.env.*.local
+
+# 설치된 패키지와 임시 파일
+node_modules/
+__pycache__/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
