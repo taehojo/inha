@@ -64,8 +64,15 @@ code-bug-analyzer에게 냉장고를 부탁해 어플리케이션 코드를 검�
 다섯 명을 한 프롬프트로 만들면 역할이 서로 겹치지 않게 나뉩니다.
 
 ```
-서브에이전트 다섯 개를 .claude/agents/ 폴더에 만들어 줘. product-manager-prd는 PRD 작성과 일정 관리, backend-architect는 서버와 API 설계, frontend-developer는 화면 구현, qa-engineer는 테스트와 코드 리뷰, ai-integration-specialist는 OpenRouter API 연동을 각각 담당해. 각 모델은 Opus로 지정해줘.
+서브에이전트 다섯 개를 만들어 줘. 저장 위치는 .claude/agents/ 폴더, 모델은 모두 Opus로 지정해 줘.
+product-manager-prd: 전체 개발 일정을 관리하는 프로덕트 매니저. PRD를 작성해 제품의 목표, 기능, 사용자 요구사항을 정의한다.
+backend-architect: 서버 아키텍처 설계, API 개발, 데이터 처리, 외부 서비스 통합, 보안 및 성능 최적화를 맡는 서버 사이드 개발 전문가. 안정적이고 확장 가능한 백엔드 시스템을 구축한다.
+frontend-developer: 사용자 인터페이스 설계 및 구현, 반응형 디자인, 웹 접근성, 성능 최적화를 맡는 클라이언트 사이드 개발 전문가.
+qa-engineer: 기능 테스트, 에러 처리 검증, 성능 최적화, 코드 리뷰를 수행하는 품질 관리 전문가. 버그를 찾고 사용성 개선을 제안한다.
+ai-integration-specialist: LLM 및 AI 서비스 통합, 프롬프트 최적화, 모델 파인튜닝, AI 파이프라인 구축을 맡는 인공지능 전문가. OpenRouter API로 google/gemma-4-31b-it:free 모델과 연동해 텍스트 생성과 요약을 구현한다.
 ```
+
+> 새로 만든 에이전트는 클로드 코드를 다시 시작해야 이름으로 부를 수 있습니다. 다섯 개가 만들어지면 `/exit`로 나간 뒤 `claude -c`로 대화를 이어서 다시 실행하고 다음 단계로 넘어가세요.
 
 **2) PDF 요약 웹앱 만들기**
 
