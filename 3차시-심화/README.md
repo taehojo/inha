@@ -100,6 +100,8 @@ frontend-developer가 따뜻하고 편안한 느낌의 일기장 UI를 만든 �
 문제를 발견하면 완전히 해결할 때까지 수정하고, 최종 버전을 브라우저에서 바로 열 수 있는 'index.html' 파일로 만들어 줘.
 ```
 
+미리보기: [AI 공감 다이어리 완성 예시](https://vibecoding-ch07.vercel.app) (책 7장 예제)
+
 완성 예시: [examples/.claude/agents/](examples/.claude/agents/)에 다섯 에이전트 정의 파일이 있습니다.
 
 > 무료 모델은 자주 바뀝니다. 모델을 찾을 수 없다는 오류(404)가 나면 [openrouter.ai/models](https://openrouter.ai/models)에서 "free"로 검색해 지금 있는 모델 이름으로 바꾸세요.
