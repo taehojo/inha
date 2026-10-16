@@ -41,8 +41,6 @@ code-bug-analyzer에게 냉장고를 부탁해 어플리케이션 코드를 검�
 
 완성 예시: [examples/.claude/agents/code-bug-analyzer.md](examples/.claude/agents/code-bug-analyzer.md)
 
-> 클로드 코드 2.1.198부터 `/agents` 명령어가 없어지고, 위처럼 **말로 설명해서** 에이전트를 만듭니다. 책 7장의 `/agents` 화면 대신 이 방법을 쓰세요. 자세한 내용은 [7장 서브에이전트 보완자료(PDF)](https://github.com/taehojo/vibecoding/blob/master/7장-서브에이전트-보완자료.pdf)에 있습니다.
-
 ---
 
 ## 2. [실습 08] AI 개발팀 에이전트로 PDF 요약 웹앱 만들기
